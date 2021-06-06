@@ -1,3 +1,8 @@
 build:
   docker:
     web: Dockerfile
+run:
+  worker:
+    command:
+      - ./docker_run.sh
+    image: web
